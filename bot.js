@@ -26,13 +26,13 @@ let reaction1Filter = (reaction, user) => reaction.emoji.name === '📬' && user
 let reaction1 = b.createReactionCollector(reaction1Filter, { time: 12000 });//حقوق Alpha and FireKingYT and SoEdit
 let reaction2 = b.createReactionCollector(reaction2Filter, { time: 12000 });//حقوق Alpha and FireKingYT and SoEdit
 reaction2.on("collect", r => {//حقوق Alpha and FireKingYT and SoEdit
-    message.channel.send('#'+x).then(a => {//حقوق Alpha and FireKingYT and SoEdit
+    message.channel.send(x).then(a => {//حقوق Alpha and FireKingYT and SoEdit
         a.delete(5000)//حقوق Alpha and FireKingYT and SoEdit
     })//حقوق Alpha and FireKingYT and SoEdit
     })//حقوق Alpha and FireKingYT and SoEdit
     reaction1.on("collect", r => {//حقوق Alpha and FireKingYT and SoEdit
         let FireKing2 = new Discord.RichEmbed()//حقوق Alpha and FireKingYT and SoEdit
-    .setDescription('#'+x)//حقوق Alpha and FireKingYT and SoEdit
+    .setDescription(x)//حقوق Alpha and FireKingYT and SoEdit
     .setFooter(`Alpha Codes For Ever`)//حقوق Alpha and FireKingYT and SoEdit
     message.channel.send(FireKing2).then(a => {//حقوق Alpha and FireKingYT and SoEdit
     a.delete(5000)//حقوق Alpha and FireKingYT and SoEdit
