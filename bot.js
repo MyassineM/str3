@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "!";
 var adminprefix = '!'
-const developers = ["545666998365978634"]
+const developers = ["436918120184021012"]
 
 client.on('message', message => {//حقوق Alpha and FireKingYT and SoEdit
     if (message.author.bot) return;//حقوق Alpha and FireKingYT and SoEdit
