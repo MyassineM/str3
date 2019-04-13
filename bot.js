@@ -44,4 +44,13 @@ reaction2.on("collect", r => {//حقوق Alpha and FireKingYT and SoEdit
 });//حقوق Alpha and FireKingYT and SoEdit
 
 
+client.on('message', message => { //Toxic Codes
+    if(message.content.startsWith('!vsay')) { //Toxic Codes
+    let args = message.content.split(' ').slice(1); //Toxic Codes
+    let ar = args.join(' '); //Toxic Codes
+
+    message.channel.send(ar,{tts:true});
+} //Toxic Codes
+}); //Toxic Codes
+
 client.login(process.env.TOKEN);// لا تغير فيها شيء
